@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Menu – Bar à CBD</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+  <h2>Bar à CBD</h2>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="about.html">À propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<div class="hero">
+  <h1>Menu CBD – Détente & saveurs</h1>
+  <p>Infusions • Mocktails • Desserts relaxants</p>
+</div>
+
+<section>
+  <div class="filter-bar">
+    <input id="search" type="text" placeholder="Rechercher un produit…">
+    <select id="category">
+      <option value="all">Toutes catégories</option>
+      <option value="infusion">Infusions</option>
+      <option value="boisson">Boissons froides</option>
+      <option value="dessert">Desserts</option>
+    </select>
+    <select id="sort">
+      <option value="none">Tri</option>
+      <option value="price-asc">Prix croissant</option>
+      <option value="price-desc">Prix décroissant</option>
+    </select>
+  </div>
+
+  <div id="product-list" class="products"></div>
+</section>
+
+<footer>
+  © 2026 – Bar à CBD – Carte & Produits
+</footer>
+<script type="module" src="menu.js"></script>
+</body>
+</html>
